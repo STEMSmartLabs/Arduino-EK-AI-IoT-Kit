@@ -118,8 +118,8 @@ An end-to-end project showing how to recognize hand gestures with TinyML.
 
 ### Option 2: Use the Pre-Trained Model
 
-1. **Download** our pre-trained library from this repo.  
-2. **Install** via **Sketch → Add .ZIP Library…**.  
+1. **Download** our pre-trained library (including `movement_model.zip`) from this repo.
+2. **Install** via **Sketch → Include Library → Add .ZIP Library…**.
 3. **Include** it in your sketch and upload.
 
 ### How It Works
