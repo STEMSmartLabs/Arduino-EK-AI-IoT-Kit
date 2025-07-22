@@ -3,7 +3,7 @@ _Discover the Inventor in You_
 
 ![Made in India](https://img.shields.io/badge/Origin-Made%20in%20India-orange)
 
-![Arduino EK Experiment AI and IoT Kit](https://shop.stemsmartlabs.com/wp-content/uploads/2025/07/AI-IoT_board.jpg)
+![Arduino EK Experiment AI and IoT Kit](https://shop.stemsmartlabs.com/wp-content/uploads/2025/07/AI-IoT_board_label.jpg)
  
 
 A next-generation learning platform to get started with Artificial Intelligence (AI) and Machine Learning (ML) using real sensor data and practical projects.
