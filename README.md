@@ -18,53 +18,7 @@ You can navigate through the different demo examples using the **arrow keys** on
 
 ---
 
-## Setting Up Arduino IoT Cloud
-
-Objective: Connect your kit to Arduino IoT Cloud for remote data logging & device management.
-
-### Create / Log In
-
-1. Go to [Arduino IoT Cloud](https://cloud.arduino.cc/) and sign in with your Arduino ID.  
-2. Install the desktop **Arduino Create Agent** when prompted.
-
-### Add Your Device
-
-1. Click **+ Add Device → Arduino → UNO R4 WiFi**.  
-2. Follow the wizard to register your board and enter WiFi credentials.
-
-### Create a “Thing” & Define Variables
-
-A “Thing” is the digital twin of your board. Define variables for each sensor/actuator, e.g.:  
-- temperature  
-- humidity  
-- LED  
-- NeoPixel  
-- Servo Motor  
-- Switch
-
----
-
-## Building Your First IoT Dashboard
-
-1. Open the **Dashboard** tab and **Create Dashboard**.  
-2. Add widgets: **Gauges**, **Graphs**, **Switches**, **Text Labels**.  
-3. Bind widgets to your cloud variables.  
-4. Monitor live data via web or the Arduino IoT Remote mobile app.  
-5. **Automate Actions**: e.g., turn on a fan widget when `temperature > 30 °C`.
-
----
-
-
-## Mobile App Control
-
-Manage your kit from your phone:
-
-1. Install **Arduino IoT Remote** (iOS & Android).  
-2. Sign in with your Arduino ID.  
-3. Control outputs (fan, LEDs, servo) and view live sensor & ML data on the go.
-
----
-## Setting Up Arduino AI 
+## Setting Up Arduino AI/IoT Kit 
 
 **Install the Arduino AI IoT Kit Library and Dependencies**
 
@@ -203,26 +157,110 @@ Display sensor values, animations, messages, or system status to bring projects 
 | **Tile Tower Game with Arduino EK R4** | OLED-based stacking game testing speed & timing | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/blob/main/examples/applications/Games/tile_tower/tile_tower.ino) | [Watch Video](https://youtu.be/5Y-gn9RKH18?list=PL_NAQ0cj_VWJGEcv7IAwLWgFyA2s_rXrA) |
 | **Smart Lock System using IR Remote, OLED, Servo, and Buzzer** | IR-based access control system with feedback mechanisms | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/blob/main/examples/applications/Home%20Automation/IR_remote_lock/IR_remote_lock.ino) | [Watch Video](https://youtu.be/CuWeehWU5jA?list=PL_NAQ0cj_VWJGEcv7IAwLWgFyA2s_rXrA) |
 
+
+---
+
+## Setting Up Arduino IoT Cloud
+
+Objective: Connect your kit to Arduino IoT Cloud for remote data logging & device management.
+
+### Create / Log In
+
+1. Go to [Arduino IoT Cloud](https://cloud.arduino.cc/) and sign in with your Arduino ID.  
+2. Install the desktop **Arduino Create Agent** when prompted.
+
+### Add Your Device
+
+1. Click **+ Add Device → Arduino → UNO R4 WiFi**.  
+2. Follow the wizard to register your board and enter WiFi credentials.
+
+### Create a “Thing” & Define Variables
+
+A “Thing” is the digital twin of your board. Define variables for each sensor/actuator, e.g.:  
+- temperature  
+- humidity  
+- LED  
+- NeoPixel  
+- Servo Motor  
+- Switch
+
+---
+
+## Building Your First IoT Dashboard
+
+1. Open the **Dashboard** tab and **Create Dashboard**.  
+2. Add widgets: **Gauges**, **Graphs**, **Switches**, **Text Labels**.  
+3. Bind widgets to your cloud variables.  
+4. Monitor live data via web or the Arduino IoT Remote mobile app.  
+5. **Automate Actions**: e.g., turn on a fan widget when `temperature > 30 °C`.
+
+---
+
+
+## Mobile App Control
+
+Manage your kit from your phone:
+
+1. Install **Arduino IoT Remote** (iOS & Android).  
+2. Sign in with your Arduino ID.  
+3. Control outputs (fan, LEDs, servo) and view live sensor & ML data on the go.
+
+---
+
+# Introduction to Machine Learning with Arduino
+
+Artificial Intelligence (AI), and specifically Machine Learning (ML), lets devices “learn” patterns from data instead of relying solely on pre-programmed logic. With ML on Arduino, you can train models on datasets and run inference—recognizing gestures, classifying sounds, or detecting anomalies—directly on the board or in the cloud.
+
+---
+
+## Key Concepts in ML
+
+- **Training**: Teaching a model using a labeled dataset.  
+- **Inference**: Using a trained model to make predictions on new data.  
+- **Features**: Attributes or patterns extracted from raw sensor readings.  
+- **Models**: Mathematical representations of learned patterns.
+
+---
+
+## Common Use Cases
+
+- **Gesture Recognition**: Detect specific movements via accelerometer data.  
+- **Sound Classification**: Identify claps, voice commands, barking, etc.  
+- **Anomaly Detection**: Spot unusual patterns in environmental or system data.
+
+---
+
+## Gesture Recognition Example
+
+![Gesture Recognition Example](https://shop.stemsmartlabs.com/wp-content/uploads/2025/07/wifi_board_accelerometer.jpg)
+ 
+
+An end-to-end project showing how to recognize hand gestures with TinyML.
+
+### Requirements
+
+- Arduino AI/IoT Kit  
+- USB-C® Cable  
+- Movement Model Arduino Library
+
+### Use the Pre-Trained Model
+
+1. **Download** our pre-trained library (including [movement_model.zip](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/blob/main/PreTrainedModel/MovementModel.zip)) from this repo.
+2. **Install** via **Sketch → Include Library → Add .ZIP Library…**.
+3. Use [Movement Model sketch](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/AI/MovementModel) verify and upload.
+
+### How It Works
+
+- Reads live accelerometer data.  
+- Converts raw readings into feature vectors.  
+- Runs inference with the TinyML model.  
+- Outputs gesture predictions to the Serial Monitor for integration into your projects.
+
 ---
 
 ## License
 
 This project is released under the MIT License.
-
----
-
-## Contact
-
-Made in India by **STEM Smart Labs**  
-- 🌐 https://stemsmartlabs.com  
-- ✉️ hello@stemsmartlabs.com  
-
-
----
-
-## License
-
-This project is released under the [MIT License](LICENSE).
 
 ---
 
