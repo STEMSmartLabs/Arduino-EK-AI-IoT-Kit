@@ -267,16 +267,19 @@ An end-to-end project showing how to recognize hand gestures with TinyML.
 - Runs inference with the TinyML model.  
 - Outputs gesture predictions to the Serial Monitor for integration into your projects.
 
+Need help? Watch this step-by-step video: [How to use Pretrained Model ?](https://youtu.be/cKpL8ZpXB6U)
+
 ---
 
 ## License
 
 This project is released under the MIT License.
 
----
+
 
 ## Contact
 
 Made in India by **STEM Smart Labs**  
 - 🌐 https://stemsmartlabs.com  
 - ✉️ hello@stemsmartlabs.com  
+
