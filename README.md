@@ -1,14 +1,14 @@
-# Arduino AI/IoT Kit  
+# Arduino AI & IoT Kit  
 _Discover the Inventor in You_
 
 ![Made in India](https://img.shields.io/badge/Origin-Made%20in%20India-orange)
 
 ![Arduino EK Experiment AI and IoT Kit](https://shop.stemsmartlabs.com/wp-content/uploads/2025/07/AI-IoT_board_label_new.jpg)
  
+## Overview:
 
-A next-generation learning platform to get started with Artificial Intelligence (AI) and Machine Learning (ML) using real sensor data and practical projects.
+The Arduino एक AI & IoT Kit is a next-generation learning platform that introduces students and enthusiasts to IoT and Artificial Intelligence using real sensor data and practical projects. It is built around the Arduino एक R4 Wifi and supports both on-device (TinyML) and cloud-based IoT integrations.
 
----
 
 ## Demo Program:
 
@@ -18,7 +18,7 @@ You can navigate through the different demo examples using the **arrow keys** on
 
 ---
 
-## Setting Up Arduino AI/IoT Kit 
+## Setting Up Arduino AI & IoT Kit 
 
 **Install the Arduino AI IoT Kit Library and Dependencies**
 
@@ -31,8 +31,8 @@ If you don’t already have the Arduino IDE:
 1. Download it from the official site: <https://www.arduino.cc/en/software>
 2. Follow the installation instructions for your platform (Windows/macOS/Linux)
 
-Need help? Watch this step-by-step tutorial:  
-[Watch: How to Install Arduino IDE](https://www.youtube.com/watch?v=7h_KRz9gVKc&list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG&index=1&pp=iAQB)
+Need help? Watch this step-by-step video:  
+[How to Install Arduino IDE](https://www.youtube.com/watch?v=7h_KRz9gVKc&list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG&index=1&pp=iAQB)
 
 ## Install the AI IoT Kit Library (ZIP)
 
@@ -57,7 +57,7 @@ This will install all necessary examples, demo and module code for using the AI 
 Open Arduino IDE and go to:  
 **Sketch** → **Include Library** → **Manage Libraries…**
 
-In the Library Manager, search for and install the following:
+In the Library Manager, search  and install the latest version of the following libraries:
 
 | **Library Name** | **Notes** |
 | --- | --- |
@@ -68,8 +68,7 @@ In the Library Manager, search for and install the following:
 | **DHT sensor library (Kxn)** | For temperature & humidity sensor |
 | **RTClib** | For real-time clock module |
 
-Watch the step-by-step video tutorial here:  
-<https://youtu.be/NynkjxE_f0E>
+Need help? Watch this step-by-step video:  [How to install AI & IoT kit library](https://youtu.be/NynkjxE_f0E)  
 
 ## Kit Modules – Examples & Video Tutorials
 
@@ -80,21 +79,22 @@ You can access all module examples directly from the Arduino IDE:
 
 Click on the video link next to each module in the table below to watch a step-by-step demonstration.
 
-| **Module Name** | **Description** | **Code Example** | **Video Link** |
-| --- | --- | --- | --- |
-| **Servo** | Moves servo motor to desired angles | Servo.ino | [Watch Video](https://youtu.be/mvdJesc4Bp0?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **NeoPixel** | Displays colorful LED animations | NeoPixel.ino | [Watch Video](https://youtu.be/aflbNHTgnTw?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **Fan** | Controls DC fan speed or on/off state | Fan.ino | [Watch Video](https://youtu.be/-V036wOBVBQ?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **DHT** | Reads temperature and humidity values | DHT.ino | [Watch Video](https://youtu.be/yxTLp2EgEgY?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **LED** | Blinks and controls external LEDs | LED.ino | [Watch Video](https://youtu.be/9pjA6bSlIlE?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **IR Remote** | Receives signals from an IR remote | IR.ino | [Watch Video](https://youtu.be/oqgKEzpTiyU?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **OLED** | Displays text and graphics on screen | OLED.ino | [Watch Video](https://youtu.be/qHU3qu7oAQo?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **LDR** | Detects ambient light intensity | LDR.ino | [Watch Video](https://youtu.be/DFxrTkIoJ8g?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **Ultrasonic** | Measures distance using sound waves | Ultrasonic.ino | [Watch Video](https://youtu.be/QnRZb2g8Dv8?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **Buzzer** | Produces tones and sound alerts | Buzzer.ino | [Watch Video](https://youtu.be/gbFjNumvReE?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **Button** | Detects push button press | Button.ino | [Watch Video](https://youtu.be/XIhvD9RvUtk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **Switch** | Reads toggle switch on/off state | Switch.ino | [Watch Video](https://youtu.be/XIhvD9RvUtk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
-| **TrimPOT** | Reads analog value from potentiometer | TrimPOT.ino | [Watch Video](https://youtu.be/jsoSBXgQ93w?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+
+| Module Name | Description | Module Code | Video Link |
+| :-- | :-- | :-- | :-- |
+| Servo | Moves servo motor to desired angles | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/Servo/Servo.ino) | [Watch Video](https://youtu.be/mvdJesc4Bp0?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| NeoPixel | Displays colorful LED animations | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/NeoPixel/NeoPixel.ino) | [Watch Video](https://youtu.be/aflbNHTgnTw?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| Fan | Controls DC fan speed or on/off state | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/Fan/Fan.ino) | [Watch Video](https://youtu.be/-V036wOBVBQ?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| DHT | Reads temperature and humidity values | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/DHT/DHT.ino) | [Watch Video](https://youtu.be/yxTLp2EgEgY?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| LED | Blinks and controls external LEDs | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/LED/LED.ino) | [Watch Video](https://youtu.be/9pjA6bSlIlE?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| IR Remote | Receives signals from an IR remote | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/IR/IR.ino) | [Watch Video](https://youtu.be/oqgKEzpTiyU?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| OLED | Displays text and graphics on screen | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/OLED/OLED.ino) | [Watch Video](https://youtu.be/qHU3qu7oAQo?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| LDR | Detects ambient light intensity | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/LDR/LDR.ino) | [Watch Video](https://youtu.be/DFxrTkIoJ8g?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| Ultrasonic | Measures distance using sound waves | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/Ultrasonic/Ultrasonic.ino) | [Watch Video](https://youtu.be/QnRZb2g8Dv8?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| Buzzer | Produces tones and sound alerts | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/Buzzer/Buzzer.ino) | [Watch Video](https://youtu.be/gbFjNumvReE?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| Button | Detects push button press | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/Button/Button.ino) | [Watch Video](https://youtu.be/XIhvD9RvUtk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| Switch | Reads toggle switch on/off state | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/Switch/Switch.ino) | [Watch Video](https://youtu.be/XIhvD9RvUtk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
+| Trimpot | Reads analog value from potentiometer | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/TrimPOT/TrimPOT.ino) | [Watch Video](https://youtu.be/jsoSBXgQ93w?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
 
 ## External Grove Ports:
 
@@ -102,16 +102,14 @@ The **Arduino EK AI & IoT Kit** offers **External Grove Ports** that make it eas
 
 ## What You Can Do:
 
-- Connect sensors not included in the main kit
+- Connect sensors included in the main kit
 - Prototype with breadboards while using Grove connectors
 - Access **I2C communication** through the Grove expansion ports
 - Extend functionality using jumper wires and custom circuits
 
-## Watch the Tutorial
+## Watch the Breadboarding Tutorial
 
-Learn how to use external Grove ports with a breadboard and connect an accelerometer in this hands-on video:
-
-[Watch Video](https://youtu.be/37e9Oa_igdk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG)
+Learn how to use external Grove ports with a breadboard and connect an accelerometer in this hands-on video: [Watch Video](https://youtu.be/37e9Oa_igdk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG)
 
 ## Real-World Applications & Projects
 
@@ -120,12 +118,12 @@ Explore exciting hands-on projects categorized by real-world domains. Each proje
 **Home Automation**
 
 Projects that automate your living space using sensors and actuators.  
-Build smart fans, curtain systems, door locks, and appliance controllers using IR remotes, RFID modules, and sensors.
+Build smart fans, curtain systems, door locks, and appliance controllers using IR remotes and sensors.
 
 **Interactive Games**
 
 Fun, interactive ways to learn electronics and logic.  
-Use buttons, sensors, and OLEDs to build games, elevator simulators, and people counters that respond to user interaction.
+Use buttons, sensors, and OLEDs to build games that respond to user interaction.
 
 **Assistive Technology**
 
@@ -144,10 +142,13 @@ Build systems that detect temperature, humidity, and light to trigger automatic 
 
 **Interactive Display**
 
-Projects that use the OLED or similar displays for real-time visual feedback.  
+Projects that use the OLED display for real-time visual feedback.  
 Display sensor values, animations, messages, or system status to bring projects to life.
 
+**You can access all application examples directly from the Arduino IDE:
+File → Examples → Arduino-EK-AI-IoT-Kit → examples → applications**
 ## Featured Project Videos
+
 | **Project Title** | **Description / Highlights** | **Project Code** | **Video Link** |
 | --- | --- | --- | --- |
 | **Tic Tac Toe Game on Arduino EK R4** | Playable Tic Tac Toe using IR Remote & OLED Display | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/blob/main/examples/applications/Games/tic_tac_toe/tic_tac_toe.ino) | [Watch Video](https://youtu.be/4XrE3T21CvA?list=PL_NAQ0cj_VWJGEcv7IAwLWgFyA2s_rXrA) |
@@ -164,27 +165,33 @@ Display sensor values, animations, messages, or system status to bring projects 
 
 Objective: Connect your kit to Arduino IoT Cloud for remote data logging & device management.
 
+
 ### Create / Log In
 
 1. Go to [Arduino IoT Cloud](https://cloud.arduino.cc/) and sign in with your Arduino ID.  
 2. Install the desktop **Arduino Create Agent** when prompted.
+
 
 ### Add Your Device
 
 1. Click **+ Add Device → Arduino → UNO R4 WiFi**.  
 2. Follow the wizard to register your board and enter WiFi credentials.
 
+Need help? Watch this step-by-step video: 
+[How to set up Arduino IoT Cloud](https://youtu.be/37e9Oa_igdk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG)
+
 ### Create a “Thing” & Define Variables
 
 A “Thing” is the digital twin of your board. Define variables for each sensor/actuator, e.g.:  
-- temperature  
-- humidity  
+- Temperature  
+- Humidity  
 - LED  
 - NeoPixel  
 - Servo Motor  
 - Switch
 
----
+Need help? Watch this step-by-step video:
+[How to configure Arduino Ek R4 AI IoT Kit](https://youtu.be/GRej4VTuXUw)
 
 ## Building Your First IoT Dashboard
 
@@ -205,7 +212,11 @@ Manage your kit from your phone:
 2. Sign in with your Arduino ID.  
 3. Control outputs (fan, LEDs, servo) and view live sensor & ML data on the go.
 
+## Open an existing IoT Dashboard Template
+1. Download [Template file .tino]()
+2. Import Template file from "**Templates -> Create -> Import local template (.tino)**" 
 ---
+
 
 # Introduction to Machine Learning with Arduino
 
@@ -239,7 +250,7 @@ An end-to-end project showing how to recognize hand gestures with TinyML.
 
 ### Requirements
 
-- Arduino AI/IoT Kit  
+- Arduino AI & IoT Kit  
 - USB-C® Cable  
 - Movement Model Arduino Library
 
