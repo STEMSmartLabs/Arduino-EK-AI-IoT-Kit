@@ -77,7 +77,7 @@ Need help? Watch this step-by-step video:  [How to install AI & IoT kit library]
 Each module in the **Arduino एक R4 AI IoT Kitt** is supported by a dedicated .ino example file and a video tutorial to help you understand its functionality and how to use it in real-world applications.
 
 You can access all module examples directly from the Arduino IDE:  
-**File** → **Examples** → **Arduino EK R4 AI IoT Kit** → **examples** → **sensors**
+**File** → **Examples** → **Arduino एक R4 AI IoT Kit** → **examples** → **sensors**
 
 Click on the video link next to each module in the table below to watch a step-by-step demonstration.
 
@@ -284,15 +284,6 @@ This project is released under the MIT License.
 ## Contact
 
 Made in India by **STEM Smart Labs**  
-- 🌐 https://stemsmartlabs.com  
-- ✉️ hello@stemsmartlabs.com  
-
-
-
-
-## Contact
-
-Made in India by **STEM Smart Labs** 
 -  🛒 [Buy Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/shop/neo-inventor-arduino-wifi-r4-ai-iot-kit/)  
 - 🌐 https://stemsmartlabs.com  
 - ✉️ hello@stemsmartlabs.com  
