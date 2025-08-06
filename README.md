@@ -1,13 +1,15 @@
-# Arduino AI & IoT Kit  
+# Arduino एक R4 AI IoT Kit  
 _Discover the Inventor in You_
 
 ![Made in India](https://img.shields.io/badge/Origin-Made%20in%20India-orange)
 
-![Arduino EK Experiment AI and IoT Kit](https://shop.stemsmartlabs.com/wp-content/uploads/2025/07/AI-IoT_board_label_new.jpg)
+![Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/wp-content/uploads/2025/07/AI-IoT_board_label_new.jpg)
  
+ 🛒 [Buy Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/shop/neo-inventor-arduino-wifi-r4-ai-iot-kit/) 
+
 ## Overview:
 
-The Arduino एक AI & IoT Kit is a next-generation learning platform that introduces students and enthusiasts to IoT and Artificial Intelligence using real sensor data and practical projects. It is built around the Arduino एक R4 Wifi and supports both on-device (TinyML) and cloud-based IoT integrations.
+The Arduino एक R4 AI IoT Kit is a next-generation learning platform that introduces students and enthusiasts to IoT and Artificial Intelligence using real sensor data and practical projects. It is built around the Arduino एक R4 Wifi and supports both on-device (TinyML) and cloud-based IoT integrations.
 
 
 ## Demo Program:
@@ -18,9 +20,9 @@ You can navigate through the different demo examples using the **arrow keys** on
 
 ---
 
-## Setting Up Arduino AI & IoT Kit 
+## Setting Up Arduino एक R4 AI IoT Kit 
 
-**Install the Arduino AI IoT Kit Library and Dependencies**
+**Install the Arduino एक R4 AI IoT Kit Library and Dependencies**
 
 Before starting with your projects, make sure you have the **Arduino IDE** installed and set up properly.
 
@@ -72,10 +74,10 @@ Need help? Watch this step-by-step video:  [How to install AI & IoT kit library]
 
 ## Kit Modules – Examples & Video Tutorials
 
-Each module in the **Arduino EK AI & IoT Kit** is supported by a dedicated .ino example file and a video tutorial to help you understand its functionality and how to use it in real-world applications.
+Each module in the **Arduino एक R4 AI IoT Kitt** is supported by a dedicated .ino example file and a video tutorial to help you understand its functionality and how to use it in real-world applications.
 
 You can access all module examples directly from the Arduino IDE:  
-**File** → **Examples** → **Arduino-EK-AI-IoT-Kit** → **examples** → **sensors**
+**File** → **Examples** → **Arduino EK R4 AI IoT Kit** → **examples** → **sensors**
 
 Click on the video link next to each module in the table below to watch a step-by-step demonstration.
 
@@ -96,9 +98,11 @@ Click on the video link next to each module in the table below to watch a step-b
 | Switch | Reads toggle switch on/off state | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/Switch/Switch.ino) | [Watch Video](https://youtu.be/XIhvD9RvUtk?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
 | Trimpot | Reads analog value from potentiometer | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/tree/main/examples/sensors/TrimPOT/TrimPOT.ino) | [Watch Video](https://youtu.be/jsoSBXgQ93w?list=PL_NAQ0cj_VWI-FwRrFVTtYNqDVCF2LvEG) |
 
+ 🛒 [Buy Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/shop/neo-inventor-arduino-wifi-r4-ai-iot-kit/) 
+
 ## External Grove Ports:
 
-The **Arduino EK AI & IoT Kit** offers **External Grove Ports** that make it easy to connect additional sensors and modules. We also support breadboarding via external port. This enables users to go beyond the pre-mounted components and experiment with new ideas, custom circuits, or external I2C devices.
+The **Arduino एक R4 AI IoT Kitt** offers **External Grove Ports** that make it easy to connect additional sensors and modules. We also support breadboarding via external port. This enables users to go beyond the pre-mounted components and experiment with new ideas, custom circuits, or external I2C devices.
 
 ## What You Can Do:
 
@@ -158,8 +162,8 @@ File → Examples → Arduino-EK-AI-IoT-Kit → examples → applications**
 | **Tile Tower Game with Arduino EK R4** | OLED-based stacking game testing speed & timing | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/blob/main/examples/applications/Games/tile_tower/tile_tower.ino) | [Watch Video](https://youtu.be/5Y-gn9RKH18?list=PL_NAQ0cj_VWJGEcv7IAwLWgFyA2s_rXrA) |
 | **Smart Lock System using IR Remote, OLED, Servo, and Buzzer** | IR-based access control system with feedback mechanisms | [View Code](https://github.com/STEMSmartLabs/Arduino-EK-AI-IoT-Kit/blob/main/examples/applications/Home%20Automation/IR_remote_lock/IR_remote_lock.ino) | [Watch Video](https://youtu.be/CuWeehWU5jA?list=PL_NAQ0cj_VWJGEcv7IAwLWgFyA2s_rXrA) |
 
-
 ---
+ 🛒 [Buy Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/shop/neo-inventor-arduino-wifi-r4-ai-iot-kit/) 
 
 ## Setting Up Arduino IoT Cloud
 
@@ -216,7 +220,7 @@ Manage your kit from your phone:
 1. Download [Template file .tino]()
 2. Import Template file from "**Templates -> Create -> Import local template (.tino)**" 
 ---
-
+ 🛒 [Buy Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/shop/neo-inventor-arduino-wifi-r4-ai-iot-kit/) 
 
 # Introduction to Machine Learning with Arduino
 
@@ -250,7 +254,7 @@ An end-to-end project showing how to recognize hand gestures with TinyML.
 
 ### Requirements
 
-- Arduino AI & IoT Kit  
+- Arduino एक R4 AI IoT Kit  
 - USB-C® Cable  
 - Movement Model Arduino Library
 
@@ -283,3 +287,12 @@ Made in India by **STEM Smart Labs**
 - 🌐 https://stemsmartlabs.com  
 - ✉️ hello@stemsmartlabs.com  
 
+
+
+
+## Contact
+
+Made in India by **STEM Smart Labs** 
+-  🛒 [Buy Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/shop/neo-inventor-arduino-wifi-r4-ai-iot-kit/)  
+- 🌐 https://stemsmartlabs.com  
+- ✉️ hello@stemsmartlabs.com  
