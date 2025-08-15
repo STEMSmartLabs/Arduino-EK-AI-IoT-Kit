@@ -205,6 +205,9 @@ Need help? Watch this step-by-step video:
 4. Monitor live data via web or the Arduino IoT Remote mobile app.  
 5. **Automate Actions**: e.g., turn on a fan widget when `temperature > 30 °C`.
 
+## Create IoT Dashboard from Template
+Follow the instruction provided in the [Template Import Guide](examples/IoT/IoT_Dashboard)
+
 ---
 
 
