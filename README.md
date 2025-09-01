@@ -219,9 +219,6 @@ Manage your kit from your phone:
 2. Sign in with your Arduino ID.  
 3. Control outputs (fan, LEDs, servo) and view live sensor & ML data on the go.
 
-## Open an existing IoT Dashboard Template
-1. Download [Template file .tino]()
-2. Import Template file from "**Templates -> Create -> Import local template (.tino)**" 
 ---
  🛒 [Buy Arduino एक R4 AI IoT Kit](https://shop.stemsmartlabs.com/shop/neo-inventor-arduino-wifi-r4-ai-iot-kit/) 
 
